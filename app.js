@@ -13,7 +13,7 @@ app.get('/data', (req, res, next) => {
 		const optionArr = [];
 		const response = [];
 		const totalCalls = 10;
-		const bracket = 4;
+		const bracket = 3;
 		let callCount = 0;
 
 		// Preparing payload for API calls
